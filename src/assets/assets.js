@@ -11,6 +11,12 @@ import menu_6 from "./menu_6.png";
 import menu_7 from "./menu_7.png";
 import menu_8 from "./menu_8.png";
 
+import img1 from "./img1.jpg";
+import img2 from "./img2.jpg";
+import img3 from "./img3.jpg";
+import img4 from "./img4.jpg";
+import vid1 from "./v.mp4";
+
 import add_icon_white from "./add_icon_white.png";
 import add_icon_green from "./add_icon_green.png";
 import remove_icon_red from "./remove_icon_red.png";
@@ -49,6 +55,11 @@ export const assets = {
   logout_icon,
   bag_icon,
   parcel_icon,
+  img1,
+  img2,
+  img3,
+  img4,
+  vid1,
 };
 
 export const menu_list = [
