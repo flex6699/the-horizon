@@ -64,7 +64,8 @@ footer hr {
     flex-direction: column;
     gap: 35px;
   }
-  .logo{
-    display:flex;
-  }
+ .logo {
+    width: 300px;
+    height: auto;
+}
 }
