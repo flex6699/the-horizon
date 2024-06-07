@@ -15,8 +15,8 @@ const Footer = () => {
           </p>
         </div>
       </div>
-      <hr />
-      <h3> Phone Number:+91965179201,7217507179</h3>
+     
+      <h2> Phone Number:+91965179201,7217507179</h2>
 
       <h3>Email:thehorizonhospitalitycorp@gmail.com</h3>
 
