@@ -12,9 +12,14 @@ const Header = () => {
           mission is to satisfy your cravings and elevate your dining
           experience, one delicious meal at a time.
         </p>
-        <a href="#explore-menu">
-          <button>View Menu</button>
-        </a>
+        <div className="button-container">
+          <a href="#explore-menu">
+            <button className="left-button">View Menu</button>
+          </a>
+          <a href="https://wa.me/c/917505637134">
+            <button className="right-button">Order Here</button>
+          </a>
+        </div>
       </div>
     </header>
   );
