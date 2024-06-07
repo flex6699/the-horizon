@@ -64,8 +64,18 @@ footer hr {
     flex-direction: column;
     gap: 35px;
   }
- .logo {
-    width: 300px;
-    height: auto;
+  .logo {
+    width: 100%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  h2 {
+    font-size: 14px; /* Decrease font size for h2 on smaller screens */
+  }
+
+  h3 {
+    font-size: 12px; /* Decrease font size for h3 on smaller screens */
+  }
 }
+.footer-content {
+  display: flex;
 }
