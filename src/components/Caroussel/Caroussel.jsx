@@ -2,6 +2,7 @@ import ReactCaroussel from "react-caroussel";
 import "react-caroussel/dist/index.css";
 import "../Caroussel/Caroussel.css";
 import { assets } from "../../assets/assets";
+
 const Card = ({ item, index }) => {
   function isImage(url) {
     return /\.(jpg|jpeg|png|webp|avif|gif|svg)$/.test(url);
@@ -46,6 +47,9 @@ export default function Caroussel() {
       link: assets.img1,
     },
     {
+      link: assets.vid1,
+    },
+    {
       link: assets.img2,
     },
     {
@@ -55,7 +59,10 @@ export default function Caroussel() {
       link: assets.img4,
     },
     {
-      link: assets.vid1,
+      link: assets.vid2,
+    },
+    {
+      link: assets.img5,
     },
   ];
   return (
